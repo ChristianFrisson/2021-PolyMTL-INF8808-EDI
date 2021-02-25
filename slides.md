@@ -900,6 +900,7 @@ Note:
 <!--slide-->
 
 <!-- ## InfoPhys  -->
+## Promouvoir vos travaux
 
 <div class="figures">
 <div class="figure">
