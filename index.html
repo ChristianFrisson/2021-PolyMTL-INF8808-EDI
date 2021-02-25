@@ -1,0 +1,1193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>InfoVis ↔ EDI</title>
+    <link rel="stylesheet" href="module/reveald3/demo/reveal.js/css/custom-gc.css" />
+    <link rel="stylesheet" href="module/reveal.js-plugins/spreadsheet/spreadsheet.css">
+    <link rel="stylesheet" href="module/reveal-a11y/accessibility/helper.css">
+    <link rel="shortcut icon" href="./favicon.ico"/>
+    <link rel="stylesheet" href="./dist/reveal.css" />
+    <link rel="stylesheet" href="./dist/theme/white.css" id="theme" />
+    <link rel="stylesheet" href="./css/highlight/zenburn.css" />
+    <link rel="stylesheet" href="./css/slides.css" />
+
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section ><section data-markdown><script type="text/template">
+
+<!-- Use these links to change the theme at runtime: -->
+<!-- TODO: style this as menu component or make sure it is ignored for deployment -->
+<!-- <div class="themes"><div>
+<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">black</a>
+<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">white</a>
+<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/league.css'); return false;">league</a>
+<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/sky.css'); return false;">sky</a>
+<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/beige.css'); return false;">beige</a>
+<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/simple.css'); return false;">simple</a>
+<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/serif.css'); return false;">serif</a>
+<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/blood.css'); return false;">blood</a>
+<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/night.css'); return false;">night</a>
+<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/moon.css'); return false;">moon</a>
+<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/solarized.css'); return false;">solarized</a>
+</div> -->
+
+<!-- Use this to add a background image: -->
+<!-- .slide: id="start" class="cover" data-background="images/projects/InfoPhys.jpg" data-state="start"-->
+
+<!-- Use this transparent styling in case of a background image: -->
+<!-- <div class="title"> -->
+
+<!-- ## InfoVis ↔ EDI -->
+
+## Visualisation d'information
+
+## ↔
+
+## Equité, diversité et inclusion
+
+<!-- </div>  -->
+
+<div class="authors">
+<div class="author">
+<img src="images/portraits/ChristianFrisson.jpg" alt="Christian Frisson"/>
+<div class="name"><a href="https://frisson.re" title="Christian Frisson's Website">Christian Frisson</a></div>
+</div>
+</div>
+
+<div class="affiliations">
+<div class="affiliation">
+<a class="logo" href="https://mcgill.ca" title="McGill University"><img src="images/logos/474px-McGill_University_CoA.svg.png" alt="McGill University"/></a>
+<a class="logo" href="http://idmil.org" title="Input Devices and Music Interaction Lab"><img src="images/logos/IDMIL-cropped-sq-rnd.png" alt="Input Devices and Music Interactions Lab"/></a>
+</div>
+</div>
+
+### PolyMTL INF8808
+
+#### 2021-02-25
+
+<aside class="notes"><ul>
+<li>Bonjour, Hi. Je m&#39;appelle Christian Frisson.</li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template">
+
+## McGill [IDMIL](http://www-new.idmil.org/)
+
+<div class="affiliations">
+<div class="affiliation">
+<a class="logo" href="https://mcgill.ca" title="McGill University"><img src="images/logos/474px-McGill_University_CoA.svg.png" alt="McGill University"/></a>
+<a class="logo" href="http://idmil.org" title="Input Devices and Music Interaction Lab"><img src="images/logos/IDMIL-cropped-sq-rnd.png" alt="Input Devices and Music Interactions Lab"/></a>
+</div>
+</div>
+
+<div class="figures">
+<div class="figure">
+<img class="thumb" alt="" src="images/3rdparty/IDMILWeb.jpg">
+<div class="cite"></div>
+</div>
+</div>
+
+<aside class="notes"><ul>
+<li>Je suis chercheur postdoctoral et bientôt chercheur invité à l&#39;Université McGill, à l&#39;IDMIL (Input Devices and Music Interaction Lab).</li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template">
+
+## McGill [IDMIL](http://www-new.idmil.org/)
+
+<div class="affiliations">
+<div class="affiliation">
+<a class="logo" href="https://mcgill.ca" title="McGill University"><img src="images/logos/474px-McGill_University_CoA.svg.png" alt="McGill University"/></a>
+<a class="logo" href="http://idmil.org" title="Input Devices and Music Interaction Lab"><img src="images/logos/IDMIL-cropped-sq-rnd.png" alt="Input Devices and Music Interactions Lab"/></a>
+</div>
+</div>
+
+<div class="figures">
+<div class="figure">
+<img class="thumb" alt="" src="images/3rdparty/IDMILProjects.png">
+<div class="cite"></div>
+</div>
+</div>
+
+</script></section><section data-markdown><script type="text/template">
+
+## [Portfolio](https://frisson.re)
+
+<div class="figures">
+<div class="figure">
+<img class="thumb" alt="" src="images/ChristianFrissonRe.png">
+<div class="cite"></div>
+</div>
+</div>
+
+</script></section><section data-markdown><script type="text/template">
+
+<!-- ## InfoVis ↔ EDI -->
+
+<!-- Use this to add a background image: -->
+<!-- .slide: class="cover" data-background="images/projects/InfoPhys.jpg" -->
+
+## Visualisation d'information
+
+## &harr;
+
+## Equité, diversité et inclusion
+
+<aside class="notes"><ul>
+<li>Aujourd&#39;hui je vais vous parler de Visualisation d&#39;information, et d&#39;Équité, diversité et inclusion.</li>
+<li>J&#39;ai choisi cette image de fond parce qu&#39;à la fois elle illustre un problème et suggère quelques pistes.</li>
+<li>Le problème, c&#39;est qu&#39;il y a un manque d&#39;équité, de diversité et d&#39;inclusion en visualisation d&#39;information, comme dans beaucoup d&#39;autres domaines dans le monde. Ce problème est largement imposé par les hommes blancs, comme moi. C&#39;est ma main dans l&#39;image de fond.</li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template">
+
+<!-- ## InfoVis ↔ EDI -->
+
+<!-- Use this to add a background image: -->
+<!-- .slide: class="cover"  data-background="images/projects/InfoPhys.jpg" -->
+
+## InfoVis
+
+## &harr;
+
+## EDI
+
+<aside class="notes"><ul>
+<li>Pour raccourcir: InfoVis et EDI.</li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template">
+
+<!-- ## InfoVis ↔ EDI -->
+
+## Sommaire
+
+### EDI?
+
+### EDI &rarr; InfoVis
+
+### InfoVis &rarr; EDI
+
+<aside class="notes"><ul>
+<li>Pourquoi raccourcir? Parce que c&#39;est plus sommaire, et ça m&#39;aide à vous expliquer le sommaire de ma présentation:</li>
+<li>Et comment leur inter-influence les améliorera.</li>
+</ul>
+</aside></script></section></section><section ><section data-markdown><script type="text/template">
+
+## Sommaire
+
+## EDI?
+
+### EDI &rarr; InfoVis
+
+### InfoVis &rarr; EDI
+
+
+
+
+</script></section><section data-markdown><script type="text/template">
+
+## EDI: Problèmes
+
+<div class="figures">
+<div class="figure">
+<img class="thumb" alt="Diversity in Visualization: Fig 2.2 " src="images/3rdparty/DiversityInVisualizationAnatomyOfOppressionReworked.png">
+<div class="cite">Reworked from Figure 2.2: The anatomy of oppression, <br/>from: Metoyer, Ronald, and Kelly Gaither. Diversity in Visualization. Vol. 6. Synthesis Lectures on Visualization. Morgan & Claypool, 2019. https://www.morganclaypool.com/doi/10.2200/S00894ED1V01Y201901VIS010
+</div>
+</div>
+</div>
+
+</script></section><section data-markdown><script type="text/template">
+
+## EDI: Illustrations
+
+<div class="figures">
+<div class="figure">
+<img class="thumb" alt="Diversity in Visualization Cover" src="images/3rdparty/DiversityInVisualization.jpg">
+<div class="cite">Metoyer, Ronald, and Kelly Gaither. Diversity in Visualization. Vol. 6. Synthesis Lectures on Visualization. Morgan & Claypool, 2019. https://www.morganclaypool.com/doi/10.2200/S00894ED1V01Y201901VIS010
+</div>
+</div>
+</div>
+
+<aside class="notes"><ul>
+<li>At the 2016 IEEE VIS Conference in Baltimore, Maryland, a panel of experts from the Scientific Visualization (SciVis) community gathered to discuss why the SciVis component of the conference had been shrinking significantly for over a decade. As the panelists concluded and opened the session to questions from the audience, Annie Preston, a Ph.D. student at the University of California, Davis, asked whether the panelists thought diversity or, more specifically, the lack of diversity was a factor. <a href="https://www.siggraph.org/diversity-in-visualization/">https://www.siggraph.org/diversity-in-visualization/</a><li><a href="https://www.siggraph.org/diversity-in-visualization/" add_date="1607353140" last_modified="1607353149" icon_uri="https://www.siggraph.org/wp-content/uploads/2019/01/cropped-favicon-192x192.png" >Diversity in Visualization - ACM SIGGRAPH</a></li>
+<li><a href="https://www.morganclaypool.com/doi/10.2200/S00894ED1V01Y201901VIS010" add_date="1607353171" last_modified="1607353174" icon_uri="https://www.morganclaypool.com/templates/jsp/_midtier/_mcp/favicon.ico" >Diversity in Visualization | Synthesis Lectures on Visualization</a></li></li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template">
+
+## EDI: Illustrations
+
+<div class="figures">
+<div class="figure">
+<img class="thumb" alt="Data Feminism Cover" src="images/3rdparty/DataFeminismCover.jpg">
+<div class="cite">Catherine D’Ignazio and Lauren F. Klein. Data Feminism. The MIT Press, 2020. https://data-feminism.mitpress.mit.edu/
+</div>
+</div>
+</div>
+
+<aside class="notes"><ul>
+<li>pubpub open access</li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template">
+
+## EDI: Pouvoir dans le monde
+
+<div class="figures">
+<div class="figure">
+<img class="thumb" alt="Data Feminism 1, The Power Chapter Header" src="images/3rdparty/DataFeminism1PowerHeader.png">
+<div class="cite">Catherine D’Ignazio and Lauren F. Klein. “1. The Power Chapter.” In Data Feminism. The MIT Press, 2020. https://data-feminism.mitpress.mit.edu/pub/vi8obxh7
+</div>
+</div>
+</div>
+
+</script></section><section data-markdown><script type="text/template">
+
+## EDI: Pouvoir dans le monde
+
+<div class="figures">
+<div class="figure">
+<img class="thumb" alt="Data Feminism 1, The Power Chapter Figure on Computer Science, the Man Factory" src="images/3rdparty/DataFeminism1FigManFactory.png">
+<div class="cite">Catherine D’Ignazio and Lauren F. Klein. “1. The Power Chapter.” In Data Feminism. The MIT Press, 2020. https://data-feminism.mitpress.mit.edu/pub/vi8obxh7
+</div>
+</div>
+</div>
+
+</script></section><section data-markdown><script type="text/template">
+
+## EDI: Pouvoir dans le monde
+
+<div class="figures">
+<div class="figure">
+<img class="thumb" alt="Data Feminism 1, The Power Chapter Figure on Facial Detection" src="images/3rdparty/DataFeminism1FigFacialDetection.png">
+<div class="cite">Catherine D’Ignazio and Lauren F. Klein. “1. The Power Chapter.” In Data Feminism. The MIT Press, 2020. https://data-feminism.mitpress.mit.edu/pub/vi8obxh7
+</div>
+</div>
+</div>
+
+</script></section><section data-markdown><script type="text/template">
+
+## EDI: Problèmes
+
+<div class="figures">
+<div class="figure">
+<img class="thumb" alt="Diversity in Visualization: Fig 2.1 " src="images/3rdparty/DiversityInVisualizationStructuralThinking.png">
+<div class="cite">Figure 2.1: The individual exists within a larger social structure., <br/>from: Metoyer, Ronald, and Kelly Gaither. Diversity in Visualization. Vol. 6. Synthesis Lectures on Visualization. Morgan & Claypool, 2019. https://www.morganclaypool.com/doi/10.2200/S00894ED1V01Y201901VIS010
+</div>
+</div>
+</div>
+
+</script></section><section data-markdown><script type="text/template">
+
+## EDI: Canada
+
+<!-- ### NSERC CRSNG -->
+
+<div class="figures">
+<div class="figure">
+<img class="thumb" alt="CRSNG-EDI" src="images/3rdparty/CRSNG-EDI.png">
+<div class="cite"></div>
+</div>
+</div>
+
+https://www.nserc-crsng.gc.ca/NSERC-CRSNG/EDI-EDI/index_fra.asp
+
+<!--
+<div class="fig-container" style="height: auto;"
+  data-file="https://www.nserc-crsng.gc.ca/NSERC-CRSNG/EDI-EDI/index_fra.asp"
+  data-scrollable="yes">
+</div> -->
+
+<aside class="notes"><li><a href="https://www.nserc-crsng.gc.ca/NSERC-CRSNG/EDI-EDI/index_eng.asp" add_date="1607353646" last_modified="1607353649" icon_uri="https://www.nserc-crsng.gc.ca/assets/favicon.ico" >NSERC - Equity, Diversity and Inclusion</a></li>
+<li><a href="https://www.nserc-crsng.gc.ca/NSERC-CRSNG/EDI-EDI/index_fra.asp" add_date="1607353672" last_modified="1607353676" icon_uri="https://www.nserc-crsng.gc.ca/assets/favicon.ico" >CRSNG - Équité, diversité et inclusion</a></li>
+* Conseil de recherches en sciences naturelles et en génie du Canada
+
+<p>Énoncé des trois organismes sur l’équité, la diversité et l’inclusion (EDI)</p>
+<p>Le Conseil de recherches en sciences humaines du Canada, le Conseil de recherches en sciences naturelles et en génie du Canada et les Instituts de recherche en santé du Canada sont déterminés à appuyer l’excellence en recherche et la formation des chercheurs et des chercheuses d’aujourd’hui et de demain. La création d’un milieu de la recherche équitable, diversifié et inclusif au Canada est essentielle à la conduite de travaux de recherche inédits, de qualité exceptionnelle et susceptibles de générer des retombées, qui permettent d’approfondir les connaissances et de résoudre des problèmes locaux, nationaux et mondiaux.</p>
+<p>Dans cet esprit, les organismes entendent :</p>
+<ul>
+<li>aider à assurer l’accès équitable aux possibilités de financement pour tous les chercheurs et toutes les chercheuses, y compris les étudiants, les étudiantes et les stagiaires postdoctoraux;</li>
+<li>favoriser l’intégration des principes d’équité, de diversité et d’inclusion dans la conception du programme de recherche et dans les pratiques;</li>
+<li>accroitre la participation équitable et inclusive dans le milieu de la recherche, y compris au sein des équipes de recherche;</li>
+<li>recueillir les données et procéder aux analyses nécessaires pour assurer la considération des questions d’équité, de diversité et d’inclusion dans la prise de décisions.</li>
+</ul>
+<p>Pour ce faire, les organismes travailleront avec tous ceux et celles œuvrant dans le milieu de la recherche afin de créer la culture d’inclusion qui est nécessaire à l’atteinte de l’excellence en recherche et à l’obtention de résultats probants, pertinents et accessibles à diverses populations.</p>
+</aside></script></section><section data-markdown><script type="text/template">
+
+## EDI: PolyMTL
+
+<div class="figures">
+<div class="figure">
+<img class="thumb" alt="" src="images/3rdparty/PolyMTLEDI.png">
+<div class="cite">
+https://www.polymtl.ca/edi/
+</div>
+</div>
+</div>
+
+</script></section><section data-markdown><script type="text/template">
+
+## In Memoriam
+
+<div class="figures">
+<div class="figure">
+<img class="thumb" alt="" src="images/3rdparty/Mtl_dec6_plaque.jpg">
+<div class="cite">
+Plaque apposée sur le mur extérieur de l'École polytechnique à la mémoire des 14 victimes tuées. 
+https://fr.wikipedia.org/wiki/Tuerie_de_l%27%C3%89cole_polytechnique_de_Montr%C3%A9al 
+(<a href="https://commons.wikimedia.org/wiki/File:Mtl_dec6_plaque.jpg?uselang=fr">wikipedia</a>)
+</div>
+</div>
+</div>
+
+</script></section></section><section  data-markdown><script type="text/template">
+
+## Sommaire
+
+### EDI?
+
+## EDI &rarr; InfoVis
+
+### InfoVis &rarr; EDI
+
+</script></section><section ><section data-markdown><script type="text/template">
+
+## Internationalisation &amp; InfoVis
+
+### Révisions d'une visualisation
+
+<div class="figures">
+<div class="figure">
+<img class="thumb" src="images/3rdparty/Github-CER-REC-PipelineIncidents.png">
+<div class="cite"></div>
+</div>
+</div>
+
+<!-- https://github.com/CER-REC/incidents-pipeliniers_pipeline-incidents -->
+
+<aside class="notes"><p>Pour revenir à la question d&#39;avant: Pourquoi n&#39;est-ce pas embarqué dans github ou gitlab? Une piste: il faudrait que ces hébergeurs git hébergent chaque version non seulement de la source mais aussi du rendu du document de conception ou de visualisations d&#39;information.</p>
+<p>Ici vous voyez la page du projet github de la visualisation d&#39;information du jeu de données sur les incidents pipeliniers. Comment résumer et suivre l&#39;évolution de 3 ans de travail de développement, dont 1106 versions?</p>
+</aside></script></section><section data-markdown><script type="text/template">
+
+## Internationalisation &amp; InfoVis
+
+### Visualisation de révisions
+
+ <video width="100%" height="auto" controls>
+  <source src="images/projects/PipelineIncidentsRevisionsPreviews-yuv420p-2020-04-06-22-07.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+<aside class="notes"><p>J&#39;espère qu&#39;il n&#39;y a pas d&#39;épiléptiques dans la salle virtuelle!</p>
+<p>Voici 1106 versions en 53 s. Il suffit pour chaque version, d&#39;installer les dépendances, de lancer le serveur, et d&#39;extraire une capture d&#39;écran avec un navigateur sans tête. Il suffit de 300 GO d&#39;espace disque.</p>
+<p>On constate:</p>
+<ul>
+<li>que la traduction française est arrivée bien plus tard.</li>
+<li>et que ce groupe gouvernemental vient de changer de nom, d&#39;Office vers Régie.</li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template">
+
+## Quizz
+
+### Quelles révisions significatives observez-vous dans la video?
+
+ <video width="100%" height="auto" controls>
+  <source src="images/projects/PipelineIncidentsRevisionsPreviews-yuv420p-2020-04-06-22-07.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+</script></section></section><section ><section data-markdown><script type="text/template">
+
+## Genres &amp; InfoVis
+
+<img src="images/projects/DataChanges/001.jpeg">
+
+Walny, Jagoda, Christian Frisson, Mieka West, Doris Kosminsky, Søren Knudsen, Sheelagh Carpendale, and Wesley Willett. “<a href="https://doi.org/10.1109/TVCG.2019.2934538">Data Changes Everything: Challenges and Opportunities in Data Visualization Design Handoff.</a>” IEEE Transactions on Visualization and Computer Graphics, TVCG’20, 26, no. 1 (January 2020): 12–22 (<a href="https://vimeo.com/368703151">video</a>)
+
+<aside class="notes"><p>Jagoda Walny a conçu ces diapositives en anglais et les à présentées à la conférence IEEE VIS 2019 à Vancouver où nous avons reçu le prix du meilleur article catégorie InfoVis.</p>
+</aside></script></section><section data-markdown><script type="text/template">
+
+## Genres &amp; InfoVis
+
+<img src="images/projects/DataChanges/002.jpeg">
+
+Walny, Jagoda, Christian Frisson, Mieka West, Doris Kosminsky, Søren Knudsen, Sheelagh Carpendale, and Wesley Willett. “<a href="https://doi.org/10.1109/TVCG.2019.2934538">Data Changes Everything: Challenges and Opportunities in Data Visualization Design Handoff.</a>” IEEE Transactions on Visualization and Computer Graphics, TVCG’20, 26, no. 1 (January 2020): 12–22 (<a href="https://vimeo.com/368703151">video</a>)
+
+<aside class="notes"><p>J’ai traduit ces diapositives en français pour vous.</p>
+</aside></script></section><section data-markdown><script type="text/template">
+
+## Genres &amp; InfoVis: Taylor
+
+<img src="images/projects/DataChanges/003.jpeg">
+
+Walny, Jagoda, Christian Frisson, Mieka West, Doris Kosminsky, Søren Knudsen, Sheelagh Carpendale, and Wesley Willett. “<a href="https://doi.org/10.1109/TVCG.2019.2934538">Data Changes Everything: Challenges and Opportunities in Data Visualization Design Handoff.</a>” IEEE Transactions on Visualization and Computer Graphics, TVCG’20, 26, no. 1 (January 2020): 12–22 (<a href="https://vimeo.com/368703151">video</a>)
+
+<aside class="notes"><p>Voici Taylor.</p>
+<p>Taylor est conceptrice et développeuse généraliste (full-stack) de visualisations: une ninja de la visualisation, si vous préférez. Donnez lui un jeu de données et elle fera tout ce que vous avez besoin pour le transformer en une visualisation élégante, lisible et interactive.
+Elle va [CLIC]</p>
+</aside></script></section><section data-markdown><script type="text/template">
+
+## Genres &amp; InfoVis: Taylor
+
+<img src="images/projects/DataChanges/004.jpeg">
+
+Walny, Jagoda, Christian Frisson, Mieka West, Doris Kosminsky, Søren Knudsen, Sheelagh Carpendale, and Wesley Willett. “<a href="https://doi.org/10.1109/TVCG.2019.2934538">Data Changes Everything: Challenges and Opportunities in Data Visualization Design Handoff.</a>” IEEE Transactions on Visualization and Computer Graphics, TVCG’20, 26, no. 1 (January 2020): 12–22 (<a href="https://vimeo.com/368703151">video</a>)
+
+<aside class="notes"><p>préparer les données, [CLIC]</p>
+</aside></script></section><section data-markdown><script type="text/template">
+
+## Genres &amp; InfoVis: Taylor
+
+<img src="images/projects/DataChanges/005.jpeg">
+
+Walny, Jagoda, Christian Frisson, Mieka West, Doris Kosminsky, Søren Knudsen, Sheelagh Carpendale, and Wesley Willett. “<a href="https://doi.org/10.1109/TVCG.2019.2934538">Data Changes Everything: Challenges and Opportunities in Data Visualization Design Handoff.</a>” IEEE Transactions on Visualization and Computer Graphics, TVCG’20, 26, no. 1 (January 2020): 12–22 (<a href="https://vimeo.com/368703151">video</a>)
+
+<aside class="notes"><p>générer une variété de prototypes inventifs, [CLIC]</p>
+</aside></script></section><section data-markdown><script type="text/template">
+
+## Genres &amp; InfoVis: Taylor
+
+<img src="images/projects/DataChanges/006.jpeg">
+
+Walny, Jagoda, Christian Frisson, Mieka West, Doris Kosminsky, Søren Knudsen, Sheelagh Carpendale, and Wesley Willett. “<a href="https://doi.org/10.1109/TVCG.2019.2934538">Data Changes Everything: Challenges and Opportunities in Data Visualization Design Handoff.</a>” IEEE Transactions on Visualization and Computer Graphics, TVCG’20, 26, no. 1 (January 2020): 12–22 (<a href="https://vimeo.com/368703151">video</a>)
+
+<aside class="notes"><p>ajuster la mise en correspondance des données et des conceptions, et [CLIC]</p>
+</aside></script></section><section data-markdown><script type="text/template">
+
+## Genres &amp; InfoVis: Taylor
+
+<img src="images/projects/DataChanges/007.jpeg">
+
+Walny, Jagoda, Christian Frisson, Mieka West, Doris Kosminsky, Søren Knudsen, Sheelagh Carpendale, and Wesley Willett. “<a href="https://doi.org/10.1109/TVCG.2019.2934538">Data Changes Everything: Challenges and Opportunities in Data Visualization Design Handoff.</a>” IEEE Transactions on Visualization and Computer Graphics, TVCG’20, 26, no. 1 (January 2020): 12–22 (<a href="https://vimeo.com/368703151">video</a>)
+
+<aside class="notes"><p>vous présenter une nouvelle manière de regarder vos données.</p>
+<p>Ou, au moins, c’est ainsi que Taylor travaillait il y a peut-être 10 ans.</p>
+</aside></script></section><section data-markdown><script type="text/template">
+
+## Genres &amp; InfoVis: Taylor
+
+<img src="images/projects/DataChanges/008.jpeg">
+
+Walny, Jagoda, Christian Frisson, Mieka West, Doris Kosminsky, Søren Knudsen, Sheelagh Carpendale, and Wesley Willett. “<a href="https://doi.org/10.1109/TVCG.2019.2934538">Data Changes Everything: Challenges and Opportunities in Data Visualization Design Handoff.</a>” IEEE Transactions on Visualization and Computer Graphics, TVCG’20, 26, no. 1 (January 2020): 12–22 (<a href="https://vimeo.com/368703151">video</a>)
+
+<aside class="notes"><p>Aujourd’hui, Taylor est censée connaître l’état de l’art en [CLIC]</p>
+</aside></script></section><section data-markdown><script type="text/template">
+
+## Genres &amp; InfoVis: Taylor
+
+<img src="images/projects/DataChanges/009.jpeg">
+
+Walny, Jagoda, Christian Frisson, Mieka West, Doris Kosminsky, Søren Knudsen, Sheelagh Carpendale, and Wesley Willett. “<a href="https://doi.org/10.1109/TVCG.2019.2934538">Data Changes Everything: Challenges and Opportunities in Data Visualization Design Handoff.</a>” IEEE Transactions on Visualization and Computer Graphics, TVCG’20, 26, no. 1 (January 2020): 12–22 (<a href="https://vimeo.com/368703151">video</a>)
+
+<aside class="notes"><p>perception visuelle - évidemment -, [CLIC]</p>
+</aside></script></section><section data-markdown><script type="text/template">
+
+## Genres &amp; InfoVis: Taylor
+
+<img src="images/projects/DataChanges/010.jpeg">
+
+Walny, Jagoda, Christian Frisson, Mieka West, Doris Kosminsky, Søren Knudsen, Sheelagh Carpendale, and Wesley Willett. “<a href="https://doi.org/10.1109/TVCG.2019.2934538">Data Changes Everything: Challenges and Opportunities in Data Visualization Design Handoff.</a>” IEEE Transactions on Visualization and Computer Graphics, TVCG’20, 26, no. 1 (January 2020): 12–22 (<a href="https://vimeo.com/368703151">video</a>)
+
+<aside class="notes"><p>maîtriser les méthodes d’évaluation, [CLIC]</p>
+</aside></script></section><section data-markdown><script type="text/template">
+
+## Genres &amp; InfoVis: Taylor
+
+<img src="images/projects/DataChanges/011.jpeg">
+
+Walny, Jagoda, Christian Frisson, Mieka West, Doris Kosminsky, Søren Knudsen, Sheelagh Carpendale, and Wesley Willett. “<a href="https://doi.org/10.1109/TVCG.2019.2934538">Data Changes Everything: Challenges and Opportunities in Data Visualization Design Handoff.</a>” IEEE Transactions on Visualization and Computer Graphics, TVCG’20, 26, no. 1 (January 2020): 12–22 (<a href="https://vimeo.com/368703151">video</a>)
+
+<aside class="notes"><p>être une conceptrice centrée humain empathique. 
+[CLIC]</p>
+</aside></script></section><section data-markdown><script type="text/template">
+
+## Genres &amp; InfoVis: Taylor
+
+<img src="images/projects/DataChanges/012.jpeg">
+
+Walny, Jagoda, Christian Frisson, Mieka West, Doris Kosminsky, Søren Knudsen, Sheelagh Carpendale, and Wesley Willett. “<a href="https://doi.org/10.1109/TVCG.2019.2934538">Data Changes Everything: Challenges and Opportunities in Data Visualization Design Handoff.</a>” IEEE Transactions on Visualization and Computer Graphics, TVCG’20, 26, no. 1 (January 2020): 12–22 (<a href="https://vimeo.com/368703151">video</a>)
+
+<aside class="notes"><p>ET une conceptrice graphique [CLIC]</p>
+</aside></script></section><section data-markdown><script type="text/template">
+
+## Genres &amp; InfoVis: Taylor
+
+<img src="images/projects/DataChanges/013.jpeg">
+
+Walny, Jagoda, Christian Frisson, Mieka West, Doris Kosminsky, Søren Knudsen, Sheelagh Carpendale, and Wesley Willett. “<a href="https://doi.org/10.1109/TVCG.2019.2934538">Data Changes Everything: Challenges and Opportunities in Data Visualization Design Handoff.</a>” IEEE Transactions on Visualization and Computer Graphics, TVCG’20, 26, no. 1 (January 2020): 12–22 (<a href="https://vimeo.com/368703151">video</a>)
+
+<aside class="notes"><p>ET aussi une magicienne de l’analytique [CLIC]</p>
+</aside></script></section><section data-markdown><script type="text/template">
+
+## Genres &amp; InfoVis: Taylor
+
+<img src="images/projects/DataChanges/014.jpeg">
+
+Walny, Jagoda, Christian Frisson, Mieka West, Doris Kosminsky, Søren Knudsen, Sheelagh Carpendale, and Wesley Willett. “<a href="https://doi.org/10.1109/TVCG.2019.2934538">Data Changes Everything: Challenges and Opportunities in Data Visualization Design Handoff.</a>” IEEE Transactions on Visualization and Computer Graphics, TVCG’20, 26, no. 1 (January 2020): 12–22 (<a href="https://vimeo.com/368703151">video</a>)
+
+<aside class="notes"><p>(qui est EXCELLENTE en apprentissage machine),</p>
+</aside></script></section><section data-markdown><script type="text/template">
+
+## Genres &amp; InfoVis: Taylor
+
+<img src="images/projects/DataChanges/015.jpeg">
+
+Walny, Jagoda, Christian Frisson, Mieka West, Doris Kosminsky, Søren Knudsen, Sheelagh Carpendale, and Wesley Willett. “<a href="https://doi.org/10.1109/TVCG.2019.2934538">Data Changes Everything: Challenges and Opportunities in Data Visualization Design Handoff.</a>” IEEE Transactions on Visualization and Computer Graphics, TVCG’20, 26, no. 1 (January 2020): 12–22 (<a href="https://vimeo.com/368703151">video</a>)
+
+<aside class="notes"><p>et pour couronner le tout,… qui créée des histoires de données captivantes et engageantes [CLIC]</p>
+</aside></script></section><section data-markdown><script type="text/template">
+
+## Genres &amp; InfoVis: Taylor
+
+<img src="images/projects/DataChanges/016.jpeg">
+
+Walny, Jagoda, Christian Frisson, Mieka West, Doris Kosminsky, Søren Knudsen, Sheelagh Carpendale, and Wesley Willett. “<a href="https://doi.org/10.1109/TVCG.2019.2934538">Data Changes Everything: Challenges and Opportunities in Data Visualization Design Handoff.</a>” IEEE Transactions on Visualization and Computer Graphics, TVCG’20, 26, no. 1 (January 2020): 12–22 (<a href="https://vimeo.com/368703151">video</a>)
+
+<aside class="notes"><p>qui vont révolutionner le monde. [CLIC]</p>
+</aside></script></section><section data-markdown><script type="text/template">
+
+## Genres &amp; InfoVis: Taylor
+
+<img src="images/projects/DataChanges/017.jpeg">
+
+Walny, Jagoda, Christian Frisson, Mieka West, Doris Kosminsky, Søren Knudsen, Sheelagh Carpendale, and Wesley Willett. “<a href="https://doi.org/10.1109/TVCG.2019.2934538">Data Changes Everything: Challenges and Opportunities in Data Visualization Design Handoff.</a>” IEEE Transactions on Visualization and Computer Graphics, TVCG’20, 26, no. 1 (January 2020): 12–22 (<a href="https://vimeo.com/368703151">video</a>)
+
+<aside class="notes"><p>[SILENCE]</p>
+<p>Aujourd’hui, Taylor commence à ressembler bien plus à ça [une licorne].</p>
+</aside></script></section><section data-markdown><script type="text/template">
+
+## Genres &amp; InfoVis: Licornes
+
+<div class="figures">
+<div class="figure">
+<img class="thumb" alt="Data Feminism 5. Header" src="images/3rdparty/DataFeminism5Header.png">
+<div class="cite">Catherine D’Ignazio and Lauren F. Klein. “5. Unicorns, Janitors, Ninjas, Wizards, and Rock Stars.” In Data Feminism. The MIT Press, 2020. https://data-feminism.mitpress.mit.edu/pub/2wu7aft8
+</div>
+</div>
+</div>
+
+</script></section><section data-markdown><script type="text/template">
+
+## Genres &amp; InfoVis: Scientifiques des Données
+
+<div class="figures">
+<div class="figure">
+<img class="thumb" alt="Data Feminism 5. Figure on Data Scientists" src="images/3rdparty/DataFeminism5DataScientists.png">
+<div class="cite">Catherine D’Ignazio and Lauren F. Klein. “5. Unicorns, Janitors, Ninjas, Wizards, and Rock Stars.” In Data Feminism. The MIT Press, 2020. https://data-feminism.mitpress.mit.edu/pub/2wu7aft8
+</div>
+</div>
+</div>
+
+<aside class="notes"><ul>
+<li>&quot;people who work with data are alternately called unicorns (because they are rare and have special skills), wizards (because they can do magic), ninjas (because they execute complicated, expert moves), rock stars (because they outperform others), and janitors (because they clean messy data)&quot;</li>
+<li>&quot;Wizards, ninjas, rock stars, and janitors each have something else in common: they are assumed to be men.&quot;
+<a href="https://data-feminism.mitpress.mit.edu/pub/2wu7aft8/release/2">https://data-feminism.mitpress.mit.edu/pub/2wu7aft8/release/2</a></li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template">
+
+## Quizz
+
+### Que vous inspire le nom "Taylor"?
+
+<img src="images/projects/DataChanges/018.jpeg">
+
+Walny, Jagoda, Christian Frisson, Mieka West, Doris Kosminsky, Søren Knudsen, Sheelagh Carpendale, and Wesley Willett. “<a href="https://doi.org/10.1109/TVCG.2019.2934538">Data Changes Everything: Challenges and Opportunities in Data Visualization Design Handoff.</a>” IEEE Transactions on Visualization and Computer Graphics, TVCG’20, 26, no. 1 (January 2020): 12–22 (<a href="https://vimeo.com/368703151">video</a>)
+
+<aside class="notes"><ul>
+<li><a href="https://en.wikipedia.org/wiki/Taylor%27s_law">https://en.wikipedia.org/wiki/Taylor%27s_law</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Taylor_rule">https://en.wikipedia.org/wiki/Taylor_rule</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Taylor">https://en.wikipedia.org/wiki/Taylor</a></li>
+<li><a href="https://fr.wikipedia.org/wiki/Taylor">https://fr.wikipedia.org/wiki/Taylor</a></li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template">
+## Genres &amp; InfoVis: Evaluations
+
+<div class="figures">
+<div class="figure">
+<img class="thumb" alt="Spiel, Katta, Oliver L. Haimson, and Danielle Lottridge's recommendation for how to ask about gender on large-sample HCI surveys." src="images/3rdparty/GenderForms.gif">
+<div class="cite">Spiel, Katta, Oliver L. Haimson, and Danielle Lottridge. “How to Do Better with Gender on Surveys: A Guide for HCI Researchers.” Interactions 26, no. 4 (June 26, 2019): 62–65. https://doi.org/10.1145/3338283.</div>
+</div>
+</div>
+
+</script></section><section data-markdown><script type="text/template">
+
+## Genres+Ethnicités &amp; InfoVis: Evaluations
+
+<div class="figures">
+<div class="figure">
+<img class="thumb" alt="" src="images/3rdparty/GenderedOrNeutralDrawings.png">
+</div>
+<div class="figure">
+<img class="thumb" alt="" src="images/3rdparty/GenderedOrNeutralGenderDrawingsVsParticipants.png">
+<img class="thumb" alt="" src="images/3rdparty/GenderedOrNeutralEthnicityDrawingsVsParticipants.png">
+</div>
+<div class="cite">Bradley, Adam, Cayley MacArthur, Mark Hancock, and Sheelagh Carpendale. “Gendered or Neutral? Considering the Language of HCI.” In Graphics Interface Conference, 8, 2015.</div>
+
+</div>
+
+<aside class="notes"><p>In this paper, we present a Mechanical Turk study that explores
+how the most common words that have been used to refer to peo-
+ple in recent HCI literature are received by non-experts. The top
+five CHI 2014 people words are: user, participant, person, design-
+er, and researcher. We asked participants to think about one of
+these words for ten seconds and then to draw an image of it. After
+the drawing was done we asked simple demographic questions
+about both the participant and the created image. Our results show
+that while generally our participants did perceive most of these
+words as predominately male, there were two notable exceptions.
+Women appear to perceive the terms “person” and “participant” as
+gender neutral. That is, they were just as likely to draw a person or
+a participant as male or female. So while these two words are not
+exactly gender neutral in that men largely perceived them as male,
+at least women did not appear to feel excluded by these terms. We
+offer an increased understanding of the perception of HCI’s people
+words and discuss the challenges this</p>
+</aside></script></section></section><section ><section data-markdown><script type="text/template">
+
+## Communautés &amp; InfoVis
+
+<div class="figures">
+<div class="figure">
+<img class="thumb" alt="" src="images/3rdparty/saffer-ux.jpg">
+<div class="cite">Saffer, Dan. Designing Gestural Interfaces: Touchscreens and Interactive Devices. O’Reilly Media, Inc., 2008.</div>
+</div>
+</div>
+
+</script></section><section data-markdown><script type="text/template">
+
+## Populations &amp; InfoVis
+
+<div class="figures">
+<div class="figure">
+<img class="thumb" alt="" src="images/3rdparty/DesigningInteractionsTheBook.png">
+<div class="cite">
+Bill Moggridge. “People and Prototypes.” In <a href="https://designinginteractions.com">Designing Interactions.</a> MIT Press, 2007. 
+</div>
+</div>
+</div>
+
+</script></section><section data-markdown><script type="text/template">
+
+## Populations &amp; InfoVis
+
+<div class="figures">
+<div class="figure">
+<img class="thumb" alt="" src="images/3rdparty/DesigningInteractionsChapters.png">
+<div class="cite">Bill Moggridge. “People and Prototypes.” In <a href="https://designinginteractions.com">Designing Interactions.</a> MIT Press, 2007. 
+</div>
+</div>
+</div>
+
+</script></section><section data-markdown><script type="text/template">
+
+## Populations &amp; InfoVis
+
+<div class="figures">
+<div class="figure">
+<img class="thumb" alt="" src="images/3rdparty/DesigningInteractionsChapter10.png">
+<div class="cite">Bill Moggridge. “People and Prototypes.” In <a href="https://designinginteractions.com">Designing Interactions.</a> MIT Press, 2007. 
+</div>
+</div>
+</div>
+
+</script></section><section data-markdown><script type="text/template">
+
+## Populations &amp; InfoVis
+
+<div class="figures">
+<div class="figure">
+<img class="thumb" alt="" src="images/3rdparty/DesigningInteractionsRememberTheExtremesFigure.png">
+</div>
+<div class="figure">
+<img class="thumb" alt="" src="images/3rdparty/DesigningInteractionsRememberTheExtremesCaption.png">
+</div>
+</div>
+<div class="cite">Bill Moggridge. “People and Prototypes.” In <a href="https://designinginteractions.com">Designing Interactions.</a> MIT Press, 2007. 
+</div>
+</div>
+
+</script></section><section data-markdown><script type="text/template">
+
+## Quizz: cette distribution est-elle normale?
+
+<div class="figures">
+<div class="figure">
+<img class="thumb" alt="" src="images/3rdparty/DesigningInteractionsRememberTheExtremesFigure.png">
+</div>
+</div>
+<div class="cite">
+Bill Moggridge. “People and Prototypes.” In <a href="https://designinginteractions.com">Designing Interactions.</a> MIT Press, 2007. 
+</div>
+</div>
+
+</script></section></section><section ><section data-markdown><script type="text/template">
+
+## Decoloniser l'InfoVis
+
+<div class="figures">
+<div class="figure">
+<img class="thumb" alt="Decolonizing Data Viz Cover" src="images/3rdparty/Khipus.jpg">
+<div class="cite">As early as 1500 CE, the Incans were using knotted cords, called khipus, <a href="https://aeon.co/ideas/the-khipu-code-the-knotty-mystery-of-the-inkas-3d-records">as a form of data visualization</a>
+</div>
+</div>
+<div class="figure">
+<img class="thumb" alt="Decolonizing Data Viz Cover" src="images/3rdparty/wendyredstar.jpg">
+<div class="cite">Wendy Red Star annotated a photo of <a href="http://portlandartmuseum.us/mwebcgi/mweb.exe?request=record;id=71459;type=101">Peelatchiwaaxpáash</a> to highlight the data being encoded all over his hair and regalia. These annotations (a popular tool in data visualization) point out data related to wars that took place in the 1800s.
+</div>
+</div>
+</div>
+
+Stephanie Evergreen, <a href="https://stephanieevergreen.com/decolonizing-data-viz/">Decolonizing Data Viz</a>, 2021.
+
+
+
+</script></section><section data-markdown><script type="text/template">
+
+## Florence Nightingale (1820-1910)
+
+<div class="figures">
+<div class="figure">
+<img class="thumb" alt="" src="images/3rdparty/FlorenceNightingalePortrait.png">
+<div class="cite">Florence Nightingale portrayed in her
+early years. (GLC Photo Library).
+</div>
+</div>
+<div class="figure">
+<img class="thumb" alt="" src="images/3rdparty/FlorenceNightingaleCoxcomb.png">
+<img class="thumb" alt="" src="images/3rdparty/FlorenceNightingalePolarAreaDiagram.png">
+<div class="cite">Polar Area Diagrams / coxcombs showing the mortality at the army hospitals at Scutari and Kulali (near
+Constantinople) during the Crimean War
+</div>
+</div>
+<div class="cite">Paul J. Lewi. “<a href="http://www.datascope.be/sog/SOG-Chapter5.pdf">Florence Nightingale and Polar Area Diagrams.</a>” In <a href="http://www.datascope.be/sog.htm
+">Speaking of Graphics</a>, 2016.
+</div>
+</div>
+
+<aside class="notes"><ul>
+<li>&quot;The polar area diagram or &#39;coxcomb&#39; in Fig. 5.2 shows the mortality in the hospitals at Scutari and Kulali from October 1, 1854, the month of Nightingale&#39;s arrival, until September 30, 1855 [8].&quot;</li>
+<li>the “Du Bois Spiral” might be considered equivalent to Florence Nightingale’s “coxcomb” in its historic significance
+<a href="https://www.tableau.com/about/blog/2019/2/how-web-du-bois-used-data-visualization-confront-prejudice-early-20th-century">https://www.tableau.com/about/blog/2019/2/how-web-du-bois-used-data-visualization-confront-prejudice-early-20th-century</a></li>
+<li><a href="https://twitter.com/search?src=typd&amp;q=%23VisualizeDiversity">https://twitter.com/search?src=typd&amp;q=%23VisualizeDiversity</a></li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template">
+
+## W.E.B. Du Bois (1868-1963)
+
+<div class="figures">
+<div class="figure">
+<img class="thumb" alt="" src="images/3rdparty/1920px-WEB_DuBois_1918.jpg">
+<div class="cite">W. E. B. Du Bois in 1918
+(<a href="https://en.wikipedia.org/wiki/File:WEB_DuBois_1918.jpg">wikipedia</a>)
+</div>
+</div>
+<div class="figure">
+<div class="fig-container" style="margin-top:-45%;width:100%; height: auto;"
+  data-file="https://www.thinglink.com/card/1119380866397634562" 
+  data-scrollable="yes">
+    <!-- data-file="images/3rdparty/thinglink/1119380866397634562.html"  -->
+</div>
+<div class="cite" style="margin-top:-45%;">InfoVis présentée à l'Exposition Universelle (1900), via <a href="https://www.smithsonianmag.com/history/first-time-together-and-color-book-displays-web-du-bois-visionary-infographics-180970826/">W.E.B. Du Bois’ Visionary Infographics Come Together for the First Time in Full Color</a> By Jackie Mansky, Smithsonian Magazine, 2018
+</div>
+</div>
+</div>
+
+<aside class="notes"><ul>
+<li><p>William Edward Burghardt Du Bois</p>
+</li>
+<li><p>en 1895, il devint le premier afro-américain à obtenir un doctorat en philosophie de l&#39;université Harvard <a href="https://fr.wikipedia.org/wiki/W._E._B._Du_Bois">https://fr.wikipedia.org/wiki/W._E._B._Du_Bois</a></p>
+</li>
+<li><p>in 1895 he was the first African American to earn a Ph.D. from Harvard University <a href="https://en.wikipedia.org/wiki/W._E._B._Du_Bois">https://en.wikipedia.org/wiki/W._E._B._Du_Bois</a></p>
+</li>
+<li><p>&quot;Britt Rusert, associate professor in the W. E. B. Du Bois Department of Afro-American Studies at the University of Massachusetts, Amherst.&quot;</p>
+</li>
+<li><p>&quot;Rusert and Whitney Battle-Baptiste, associate professor of anthropology at U-Mass and director of its W.E.B. Du Bois Center, are the editors of a newly published book, W.E.B. Du Bois’s Data Portraits: Visualizing Black America.&quot;</p>
+</li>
+<li><p><a href="https://www.thinglink.com/card/1119380866397634562">https://www.thinglink.com/card/1119380866397634562</a></p>
+</li>
+<li><p>Lamin Fofana - I Ran From It And Was Still In It
+<a href="https://laminfofana.bandcamp.com/album/darkwater">https://laminfofana.bandcamp.com/album/darkwater</a>
+<a href="https://www.youtube.com/watch?v=b59cGbfk6U0">https://www.youtube.com/watch?v=b59cGbfk6U0</a></p>
+</li>
+</ul>
+<!-- <li><a href="https://speakerdeck.com/ajstarks/recreating-the-dubois-data-portraits" add_date="1608929205" last_modified="1608929207" icon_uri="https://d1eu30co0ohy4w.cloudfront.net/assets/favicon-c0fe5475f88a65b817c8cc7c0fedc01b7acc17fe27628fa13ca3f96e56e16977.png" >Recreating the DuBois Data Portraits - Speaker Deck</a></li>
+<li><a href="https://www.youtube.com/watch?v=b59cGbfk6U0" add_date="1609526907" last_modified="1609526945" icon_uri="https://www.youtube.com/s/desktop/b4291726/img/favicon_144.png" >Lamin Fofana - I Ran From It And Was Still In It - YouTube</a></li>
+<li><a href="https://www.tableau.com/about/blog/2019/2/how-web-du-bois-used-data-visualization-confront-prejudice-early-20th-century" add_date="1609728210" last_modified="1609728212" icon_uri="https://www.tableau.com/themes/custom/tableau_www/favicon.ico" >How W.E.B. Du Bois used data visualization to confront prejudice in the early 20th century</a></li> --></aside></script></section></section><section ><section data-markdown><script type="text/template">
+
+## Promouvoir vos travaux
+
+<div class="figures">
+<div class="figure">
+<img class="thumb" alt="Data Feminism 7. Header" src="images/3rdparty/DataFeminism7Header.png">
+<div class="cite">Catherine D’Ignazio and Lauren F. Klein. “7. Show Your Work.” In Data Feminism. The MIT Press, 2020. https://data-feminism.mitpress.mit.edu/pub/0vgzaln4.
+</div>
+</div>
+</div>
+
+</script></section><section data-markdown><script type="text/template">
+
+<!-- Use this to add a background image: -->
+<!-- .slide: class="cover" data-background="images/projects/InfoPhys.jpg" -->
+
+<!-- ## InfoPhys -->
+
+</script></section><section data-markdown><script type="text/template">
+
+<!-- ## InfoPhys  -->
+## Promouvoir vos travaux
+
+<div class="figures">
+<div class="figure">
+<img class="thumb" alt="InfoPhys Poster" src="images/projects/InfoPhysPosterBody.jpg">
+<div class="cite">Poster
+</div>
+</div>
+<div class="figure">
+<img class="thumb" alt="InfoPhys Paper" src="images/projects/InfoPhysPaperThumbs.png">
+<img class="thumb" alt="InfoPhys Paper" src="images/projects/InfoPhysPaperAcknowledgements.png">
+<div class="cite">Paper
+</div>
+</div>
+<div class="cite">
+Frisson, Christian, and Bruno Dumas. “<a href="https://doi.org/10.1145/2839462.2856545">InfoPhys: Direct Manipulation of Information Visualisation Through a Force-Feedback Pointing Device.</a>” In Proceedings of the TEI ’16: Tenth International Conference on Tangible, Embedded, and Embodied Interaction. TEI ’16. ACM, 2016.
+</div>
+
+</div>
+
+</script></section><section data-markdown><script type="text/template">
+
+## Cora Johnson-Roberson
+
+
+
+<div class="figures">
+<div class="figure">
+<img class="thumb" alt="" src="images/3rdparty/CoraJohnsonRoberson.png">
+<div class="cite">
+Cora Johnson-Roberson's Portrait from <a href="https://github.com/corajr">https://github.com/corajr</a>
+</div>
+</div>
+<div class="figure">
+<img class="thumb" alt="" src="images/3rdparty/PaperMachinesAcknowledgmentsFunding.png">
+<div class="cite"><a href="http://papermachines.org/acknowledgments-and-funding/">PaperMachines Acknowledgements and Funding</a>
+</div>
+</div>
+</div>
+
+</script></section><section data-markdown><script type="text/template">
+
+<!-- Use this to add a background image: -->
+<!-- .slide: class="cover" data-background="images/projects/InfoPhys.jpg" -->
+
+<!-- ## InfoPhys -->
+
+</script></section><section data-markdown><script type="text/template">
+
+## Accessibilité &amp; Haptique
+
+<div class="figures">
+<div class="figure">
+<!-- <img class="thumb" alt="" src="images/3rdparty/RefreshingRefreshableBrailleDisplays/Fig1.png"> -->
+<img class="thumb" alt="" src="images/3rdparty/RefreshingRefreshableBrailleDisplays/Fig4.png">
+<img class="thumb" alt="" src="images/3rdparty/RefreshingRefreshableBrailleDisplays/Fig5.png">
+<div class="cite">
+</div>
+</div>
+<div class="figure">
+<img class="thumb" alt="" src="images/3rdparty/RefreshingRefreshableBrailleDisplays/Fig7.png">
+<img class="thumb" alt="" src="images/3rdparty/RefreshingRefreshableBrailleDisplays/Fig8.png">
+<div class="cite">
+</div>
+</div>
+<div class="cite">
+Russomanno, A., S. O’Modhrain, R. B. Gillespie, and M. W. M. Rodger. “Refreshing Refreshable Braille Displays.” IEEE Transactions on Haptics 8, no. 3 (July 2015): 287–97. https://doi.org/10.1109/TOH.2015.2423492.
+</div>
+</div>
+
+<aside class="notes"><p>IROS 2020 Sile O&#39;Modhrain</p>
+</aside></script></section><section data-markdown><script type="text/template">
+
+## Accessibilité &amp; InfoVis
+
+<div class="figures">
+<div class="figure">
+<img class="thumb" alt="" src="images/3rdparty/Twitter-FrankElavsky-1351311898428362754.png">
+<div class="cite">
+</div>
+</div>
+</div>
+
+https://twitter.com/FrankElavsky/status/1351311898428362754
+
+<aside class="notes"><ul>
+<li>Color-blindness mostly affects white men</li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template">
+
+## Accessibilité &amp; IHM
+
+<div class="figures">
+<div class="figure">
+<img class="thumb" alt="" src="images/3rdparty/Accessibility/WhyAccessibility-OpenSourceDesign-FOSDEM21.jpeg">
+<div class="cite">
+Oana Mangiurea, <a href="https://fosdem.org/2021/schedule/event/latest_tech_great_accessibility_not_so_much/">Latest tech, great! Accessibility, not so much.</a>, FOSDEM 2021
+</div>
+</div>
+</div>
+
+<aside class="notes"><ul>
+<li>Free and Open source Software Developers&#39; European Meeting (FOSDEM)</li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template">
+
+## Accessibilité &amp; Web
+
+<div class="figures">
+<div class="figure">
+<img class="thumb" alt="" src="images/3rdparty/Accessibility/BrowserAccessibilityTools-OpenSourceDesign-FOSDEM21.jpeg">
+<div class="cite">
+Oana Mangiurea, <a href="https://fosdem.org/2021/schedule/event/latest_tech_great_accessibility_not_so_much/">Latest tech, great! Accessibility, not so much.</a>, FOSDEM 2021
+</div>
+</div>
+</div>
+
+</script></section><section data-markdown><script type="text/template">
+
+## Accessibilité &amp; Web
+
+<div class="figures">
+<div class="figure">
+<img class="thumb" alt="" src="images/3rdparty/Accessibility/OtherAccessibilityTools-OpenSourceDesign-FOSDEM21.jpeg">
+<div class="cite">
+Oana Mangiurea, <a href="https://fosdem.org/2021/schedule/event/latest_tech_great_accessibility_not_so_much/">Latest tech, great! Accessibility, not so much.</a>, FOSDEM 2021
+</div>
+</div>
+</div>
+
+</script></section></section><section ><section data-markdown><script type="text/template">
+
+## Sommaire
+
+### EDI?
+
+### EDI &rarr; InfoVis
+
+## InfoVis &rarr; EDI
+
+</script></section><section data-markdown><script type="text/template">
+
+## InfoVis &rarr; EDI
+
+<div class="figures">
+<div class="figure">
+<img class="thumb" alt="" src="images/3rdparty/HowVisualizationCanFosterDiversityAndInclusionInNext-GenerationScienceFig2.png">
+<div class="cite">Gaither, K. “<a href="https://doi.org/10.1109/MCG.2017.3621230">How Visualization Can Foster Diversity and Inclusion in Next-Generation Science.</a>” IEEE Computer Graphics and Applications 37, no. 5 (2017): 106–12</div>
+</div>
+</div>
+
+</script></section><section data-markdown><script type="text/template">
+
+## InfoVis &rarr; Autonomisation &amp; Inclusion
+
+<div class="figures">
+<div class="figure">
+<img class="thumb" alt="" src="images/3rdparty/VIS2020-DataVisEmpowermentInclusion-SheelaghCarpendale.png">
+<div class="cite">IEEE VIS 2020 Capstone by Sheelagh Carpendale: Data VIS for Empowerment and Inclusion
+</div>
+</div>
+</div>
+
+https://www.youtube.com/watch?v=XQhBHnPIsRk
+
+</script></section><section data-markdown><script type="text/template">
+
+## Xenographics
+
+<div class="figures">
+<div class="figure">
+<img class="thumb" alt="" src="images/3rdparty/XenographicsAbout.png">
+<div class="cite"></div>
+</div>
+</div>
+
+https://xeno.graphics/about/
+
+</script></section><section data-markdown><script type="text/template">
+
+## Xenographics
+
+<div class="figures">
+<div class="figure">
+<img class="thumb" alt="" src="images/3rdparty/XenographicsExamples.png">
+<div class="cite"></div>
+</div>
+</div>
+
+https://xeno.graphics/
+
+</script></section></section><section ><section data-markdown><script type="text/template">
+
+## Annonces
+
+
+</script></section><section data-markdown><script type="text/template">
+
+## Rejoignez les communautés Slack en IHM/InfoVis
+
+
+<div class="figures">
+<div class="figure">
+<img class="thumb" alt="EarlyCareerVisResearcher Slack Channels" src="images/3rdparty/SlackCanadaHCI.png">
+<div class="cite">Canada HCI https://canadahci.slack.com
+</div>
+</div>
+<div class="figure">
+<img class="thumb" alt="EarlyCareerVisResearcher Slack Channels" src="images/3rdparty/SlackEarlyCareerVisResearcher.png">
+<div class="cite">EarlyCareerVisResearcher https://earlycareersinvis.slack.com/
+</div>
+</div>
+</div>
+
+</script></section><section data-markdown><script type="text/template">
+
+## Observez les résultats du concours Observable Black History Month DataViz
+
+<div class="figures">
+<div class="figure">
+<img class="thumb" alt="" src="images/3rdparty/ObservableBlackHistoryMonthDataVizContest.png">
+<div class="cite"></div>
+</div>
+</div>
+
+https://observablehq.com/@observablehq/black-history-month-dataviz-contest
+
+</script></section><section data-markdown><script type="text/template">
+
+## Participez au test d'utilisabilité Idyll
+
+<div class="figures">
+<div class="figure">
+<img class="thumb" alt="" src="images/3rdparty/IdyllUserCallTwitter.png">
+<div class="cite"></div>
+</div>
+</div>
+
+https://twitter.com/idyll_lang/status/1359955913197588482
+
+<!-- https://docs.google.com/forms/d/e/1FAIpQLScZIGzKtd_IL6tK-fAGEr76VgNDCQjBW3l3JHYLz0JES7JZ3A/viewform?usp=send_form -->
+
+<aside class="notes"><ul>
+<li>The Idyll team is looking for people who would be willing to test new tools for authoring interactive documents!</li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template">
+
+## Participez au concours en haptique &amp; audio
+
+<div class="figures">
+<div class="figure">
+<img class="thumb" alt="ieee-whc-2021-cropped-Header" src="images/3rdparty/ieee-whc-2021-cropped-Header1380-280-01-4.png">
+<img class="thumb" alt="" src="images/3rdparty/Twitter-ieeehaptics-1354149086061072385.png">
+<div class="cite"></div>
+</div>
+</div>
+
+https://twitter.com/ieeehaptics/status/1354149086061072385
+
+Date limite pour les propositions: 5 mars 2021
+
+https://2021.worldhaptics.org/sic/
+</script></section></section></div>
+    </div>
+
+    <script src="./dist/reveal.js"></script>
+
+    <script src="./plugin/markdown/markdown.js"></script>
+    <script src="./plugin/highlight/highlight.js"></script>
+    <script src="./plugin/zoom/zoom.js"></script>
+    <script src="./plugin/notes/notes.js"></script>
+    <script src="./plugin/math/math.js"></script>
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              if(Array.isArray(target[key])){
+                target[key] = target[key].concat(source[key]);
+              }
+              else{
+                target[key] = source[key];
+              }
+            }
+          }
+        }
+        return target;
+      }
+
+      // Optional libraries used to extend on reveal.js
+      var deps = [
+        { src: './plugin/markdown/markdown.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+        { src: './plugin/highlight/highlight.js', async: true },
+        { src: './plugin/zoom/zoom.js', async: true },
+        { src: './plugin/notes/notes.js', async: true },
+        { src: './plugin/math/math.js', async: true },
+        // { src: './module/reveal.js-plugins/chart/Chart.min.js' },				
+	      // { src: './module/reveal.js-plugins/chart/csv2chart.js' }
+        { src: 'module/reveal-a11y/accessibility/helper.js', async: true, condition: function() { return !!document.body.classList; } },
+      ];
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        dependencies: deps,
+        // chart: {
+        //   defaults: {
+        //     global: {
+        //       title: { fontColor: "#FFF" },
+        //       legend: {
+        //         labels: { fontColor: "#FFF" },
+        //       },
+        //     },
+        //     scale: {
+        //       scaleLabel: { fontColor: "#FFF" },
+        //       gridLines: { color: "#FFF", zeroLineColor: "#FFF" },
+        //       ticks: { fontColor: "#FFF" },
+        //     }
+        //   },
+        //   line: { borderColor: ["rgba(20,220,220,.8)", "rgba(220,120,120,.8)", "rgba(20,120,220,.8)"], "borderDash": [[5, 10], [0, 0]] },
+        //   bar: { backgroundColor: ["rgba(20,220,220,.8)", "rgba(220,120,120,.8)", "rgba(20,120,220,.8)"] },
+        //   pie: { backgroundColor: [["rgba(0,0,0,.8)", "rgba(220,20,20,.8)", "rgba(20,220,20,.8)", "rgba(220,220,20,.8)", "rgba(20,20,220,.8)"]] },
+        //   radar: { borderColor: ["rgba(20,220,220,.8)", "rgba(220,120,120,.8)", "rgba(20,120,220,.8)"] },
+        // }
+        // spreadsheet: {
+        //   // fontsize: 24,
+        //   width: 150,
+        //   delimiter: ",",
+        //   precision: 4 // the maximum number of digits after the comma
+        // },
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealZoom,
+          RevealNotes,
+          RevealMath
+        ]
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal().getQueryHash() || {};
+
+      var options = extend(defaultOptions, {"transition":"none","slideNumber":"c/t","hashOneBasedIndex":true,"history":true,"margin":0.01,"controls":true,"progress":true,"dependencies":[{"src":"module/reveal.js-plugins/chart/Chart.min.js"},{"src":"module/reveal.js-plugins/chart/csv2chart.js"},{"src":"module/reveald3/reveald3.js"},{"src":"module/reveal.js-plugins/spreadsheet/ruleJS.all.full.min.js"},{"src":"module/reveal.js-plugins/spreadsheet/spreadsheet.js"}]}, queryOptions);
+    </script>
+
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+</html>
