@@ -95,6 +95,12 @@ Note:
 Note:
 
 - Je suis chercheur postdoctoral et bientôt chercheur invité à l'Université McGill, à l'IDMIL (Input Devices and Music Interaction Lab).
+- Parmi les domaines de recherche d'IDMIL, dans la capture d'écran, de gauche à droite:
+   1. la conception d'instruments de musique numérique
+   2. le contrôle gestuel de la performance musicale
+   3. l'interaction humain-machine dont la visualisation d'information
+   4. la collection et l'analyse de données de mouvements 
+
 
 <!--slide-->
 
@@ -114,6 +120,13 @@ Note:
 </div>
 </div>
 
+Note:
+
+- Mes projets de recherche récents à IDMIL s'inscrivent dans 3 domaines de recherche:
+   1. haptique avec retour de force (projet 1 à gauche: module de couple moteur embarqué pour instrument de musique numérique) et vibrotactile (projet 4 à droite: mappage de tension musicale de performances musicales vers ressenti vibrotactile pour l'audience)
+   2. visualisation d'information (projet 2: explorateur de conférences distinguées CIRMMT)
+   3. supports de cours interactifs (projet 3: établi explorable de traitement de signal audionumérique)
+
 <!--slide-->
 
 ## [Portfolio](https://frisson.re)
@@ -124,6 +137,9 @@ Note:
 <div class="cite"></div>
 </div>
 </div>
+
+Note:
+- Je vous invite à consulter mon portfolio en ligne.
 
 <!--slide-->
 
