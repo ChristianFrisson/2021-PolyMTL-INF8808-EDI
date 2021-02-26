@@ -1,0 +1,52 @@
+{
+  "_from": "file:../reveal-a11y-1.0.0b.tgz",
+  "_id": "reveal-a11y@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-TtFNKxIcRZp0hf6HtpVUArl5MBmDO/1df4MWBHJEzt53L5vIG5w3P4xirqHuzztzJHFugO53j6AwLAdm8fMnHQ==",
+  "_location": "/reveal-a11y",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "file",
+    "where": "/home/christianfrisson/Lab/Material/Slides/2021-PolyMTL-INF8808-EDI/2021-PolyMTL-INF8808-EDI",
+    "raw": "reveal-a11y@../reveal-a11y-1.0.0b.tgz",
+    "name": "reveal-a11y",
+    "escapedName": "reveal-a11y",
+    "rawSpec": "../reveal-a11y-1.0.0b.tgz",
+    "saveSpec": "file:../reveal-a11y-1.0.0b.tgz",
+    "fetchSpec": "/home/christianfrisson/Lab/Material/Slides/2021-PolyMTL-INF8808-EDI/reveal-a11y-1.0.0b.tgz"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "/home/christianfrisson/Lab/Material/Slides/2021-PolyMTL-INF8808-EDI/reveal-a11y-1.0.0b.tgz",
+  "_shasum": "bbd0b8e74baf883c81ba63829edbddc52293fcd3",
+  "_spec": "reveal-a11y@../reveal-a11y-1.0.0b.tgz",
+  "_where": "/home/christianfrisson/Lab/Material/Slides/2021-PolyMTL-INF8808-EDI/2021-PolyMTL-INF8808-EDI",
+  "author": {
+    "name": "Marcy Sutton"
+  },
+  "bugs": {
+    "url": "https://github.com/marcysutton/reveal-a11y/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Reveal.js plugin for better slide accessibility",
+  "homepage": "https://github.com/marcysutton/reveal-a11y#readme",
+  "keywords": [
+    "a11y",
+    "accessibility",
+    "reveal.js",
+    "slides"
+  ],
+  "license": "ISC",
+  "main": "accessibility/helper.js",
+  "name": "reveal-a11y",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcysutton/reveal-a11y.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
