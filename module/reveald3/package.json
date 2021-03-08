@@ -1,5 +1,5 @@
 {
-  "_from": "reveald3@*",
+  "_from": "reveald3@^1.5.5",
   "_id": "reveald3@1.5.5",
   "_inBundle": false,
   "_integrity": "sha512-gp4ufWJg9Tf9f2rbA8EwEJc3dTlEtp8qqiZav4+ACARw+CT92SmAty8rCMHCld6KyPh1YZTLw0UtPt13sLVVxw==",
@@ -8,19 +8,19 @@
   "_requested": {
     "type": "range",
     "registry": true,
-    "raw": "reveald3@*",
+    "raw": "reveald3@^1.5.5",
     "name": "reveald3",
     "escapedName": "reveald3",
-    "rawSpec": "*",
+    "rawSpec": "^1.5.5",
     "saveSpec": null,
-    "fetchSpec": "*"
+    "fetchSpec": "^1.5.5"
   },
   "_requiredBy": [
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/reveald3/-/reveald3-1.5.5.tgz",
   "_shasum": "8619ae1903d029bb0b270c0ed985125edfe826bc",
-  "_spec": "reveald3@*",
+  "_spec": "reveald3@^1.5.5",
   "_where": "/home/christianfrisson/Lab/Material/Slides/2021-PolyMTL-INF8808-EDI/2021-PolyMTL-INF8808-EDI",
   "author": {
     "name": "Guillaume Calmettes"

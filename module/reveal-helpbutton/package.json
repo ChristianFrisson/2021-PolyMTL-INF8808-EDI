@@ -1,0 +1,57 @@
+{
+  "_from": "git+https://github.com/ChristianFrisson/reveal-helpbutton.git",
+  "_id": "reveal-helpbutton@2.0.1",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/reveal-helpbutton",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "reveal-helpbutton@git+https://github.com/ChristianFrisson/reveal-helpbutton.git",
+    "name": "reveal-helpbutton",
+    "escapedName": "reveal-helpbutton",
+    "rawSpec": "git+https://github.com/ChristianFrisson/reveal-helpbutton.git",
+    "saveSpec": "git+https://github.com/ChristianFrisson/reveal-helpbutton.git",
+    "fetchSpec": "https://github.com/ChristianFrisson/reveal-helpbutton.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/ChristianFrisson/reveal-helpbutton.git#237d0e10ecd7f66685a1063e2609bee9d215bec9",
+  "_spec": "reveal-helpbutton@git+https://github.com/ChristianFrisson/reveal-helpbutton.git",
+  "_where": "/home/christianfrisson/Lab/Material/Slides/2021-PolyMTL-INF8808-EDI/2021-PolyMTL-INF8808-EDI",
+  "author": {
+    "name": "Sören Weber"
+  },
+  "bugs": {
+    "url": "https://github.com/McShelby/reveal-helpbutton/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Sören Weber"
+    },
+    {
+      "name": "Christian Frisson"
+    }
+  ],
+  "deprecated": false,
+  "description": "A reveal.js 3.x / 4.x plugin to open the help screen by pressing a button. ",
+  "homepage": "https://github.com/McShelby/reveal-helpbutton#readme",
+  "keywords": [
+    "reveal.js",
+    "slides"
+  ],
+  "license": "MIT",
+  "main": "helpbutton.js",
+  "name": "reveal-helpbutton",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/McShelby/reveal-helpbutton.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "2.0.1"
+}

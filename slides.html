@@ -1277,6 +1277,8 @@ https://2021.worldhaptics.org/sic/
     <script src="./plugin/zoom/zoom.js"></script>
     <script src="./plugin/notes/notes.js"></script>
     <script src="./plugin/math/math.js"></script>
+    <script src="module/reveal-helpbutton/helpbutton.js"></script>
+
     <script>
       function extend() {
         var target = {};
@@ -1346,8 +1348,10 @@ https://2021.worldhaptics.org/sic/
           RevealHighlight,
           RevealZoom,
           RevealNotes,
-          RevealMath
-        ]
+          RevealMath,
+          HelpButton
+        ],
+        helpButtonDisplay: 'always',
       };
 
       // options from URL query string

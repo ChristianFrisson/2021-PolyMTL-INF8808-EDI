@@ -1,26 +1,25 @@
 {
-  "_from": "file:../reveal-a11y-1.0.0b.tgz",
+  "_from": "git+https://github.com/ChristianFrisson/reveal-a11y.git",
   "_id": "reveal-a11y@1.0.0",
   "_inBundle": false,
-  "_integrity": "sha512-TtFNKxIcRZp0hf6HtpVUArl5MBmDO/1df4MWBHJEzt53L5vIG5w3P4xirqHuzztzJHFugO53j6AwLAdm8fMnHQ==",
+  "_integrity": "",
   "_location": "/reveal-a11y",
   "_phantomChildren": {},
   "_requested": {
-    "type": "file",
-    "where": "/home/christianfrisson/Lab/Material/Slides/2021-PolyMTL-INF8808-EDI/2021-PolyMTL-INF8808-EDI",
-    "raw": "reveal-a11y@../reveal-a11y-1.0.0b.tgz",
+    "type": "git",
+    "raw": "reveal-a11y@git+https://github.com/ChristianFrisson/reveal-a11y.git",
     "name": "reveal-a11y",
     "escapedName": "reveal-a11y",
-    "rawSpec": "../reveal-a11y-1.0.0b.tgz",
-    "saveSpec": "file:../reveal-a11y-1.0.0b.tgz",
-    "fetchSpec": "/home/christianfrisson/Lab/Material/Slides/2021-PolyMTL-INF8808-EDI/reveal-a11y-1.0.0b.tgz"
+    "rawSpec": "git+https://github.com/ChristianFrisson/reveal-a11y.git",
+    "saveSpec": "git+https://github.com/ChristianFrisson/reveal-a11y.git",
+    "fetchSpec": "https://github.com/ChristianFrisson/reveal-a11y.git",
+    "gitCommittish": null
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "/home/christianfrisson/Lab/Material/Slides/2021-PolyMTL-INF8808-EDI/reveal-a11y-1.0.0b.tgz",
-  "_shasum": "bbd0b8e74baf883c81ba63829edbddc52293fcd3",
-  "_spec": "reveal-a11y@../reveal-a11y-1.0.0b.tgz",
+  "_resolved": "git+https://github.com/ChristianFrisson/reveal-a11y.git#e9799245a305f3c89608b38617da0543ef75d076",
+  "_spec": "reveal-a11y@git+https://github.com/ChristianFrisson/reveal-a11y.git",
   "_where": "/home/christianfrisson/Lab/Material/Slides/2021-PolyMTL-INF8808-EDI/2021-PolyMTL-INF8808-EDI",
   "author": {
     "name": "Marcy Sutton"
@@ -29,6 +28,20 @@
     "url": "https://github.com/marcysutton/reveal-a11y/issues"
   },
   "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Marcy Sutton"
+    },
+    {
+      "name": "Frederic Hemberger"
+    },
+    {
+      "name": "Jens Lechtenbörger"
+    },
+    {
+      "name": "Christian Frisson"
+    }
+  ],
   "deprecated": false,
   "description": "Reveal.js plugin for better slide accessibility",
   "homepage": "https://github.com/marcysutton/reveal-a11y#readme",
