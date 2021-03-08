@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "reveal-md slides.md --template template.html --css slides.css --watch --port 1948",
     "pdf": "reveal-md slides.md --template template.html --css slides.css --print slides.pdf",
-    "html": "reveal-md slides.md --template template.html --css slides.css --static-dirs=images --assets-dir=css --static build",
+    "html": "reveal-md slides.md --template template.html --css slides.css --static-dirs=images --assets-dir=css --static build  && cp -rv node_modules/reveal-a11y build/module/",
     "publish": "npm run html && node publish.js"
   },
   "author": "Christian Frisson",
