@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "reveal-md slides.md --template template.html --css slides.css --watch --port 1948",
     "pdf": "reveal-md slides.md --template template.html --css slides.css --print slides.pdf",
-    "html": "reveal-md slides.md --template template.html --css slides.css --static-dirs=images --assets-dir=css --static build  && cp -rv node_modules/reveal-a11y build/module/",
+    "html": "reveal-md slides.md --template template.html --css slides.css --static-dirs=images --assets-dir=css --static build && npm run copy-reveal-plugins",
+    "copy-reveal-plugins": "cp -rv node_modules/reveal-a11y build/module/ && cp -rv node_modules/reveal-helpbutton build/module/",
     "publish": "npm run html && node publish.js"
   },
   "author": "Christian Frisson",
@@ -18,6 +19,7 @@
   "dependencies": {
     "reveal.js-plugins": "git+https://github.com/rajgoel/reveal.js-plugins.git#v3",
     "reveald3": "^1.5.5",
-    "reveal-a11y": "git+https://github.com/ChristianFrisson/reveal-a11y.git"
+    "reveal-a11y": "git+https://github.com/ChristianFrisson/reveal-a11y.git",
+    "reveal-helpbutton": "git+https://github.com/ChristianFrisson/reveal-helpbutton.git"
   }
 }
