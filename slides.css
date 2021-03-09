@@ -167,3 +167,10 @@ table#t01 td:nth-child(odd) {
 	perspective: 70px;
 
 }
+
+/* Ensure certain elements are never larger than the slide itself */
+.reveal img,
+.reveal video,
+.reveal iframe {
+  max-height: 65vh; 
+}
